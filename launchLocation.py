@@ -8,6 +8,9 @@ from folium.plugins import MousePosition
 # Import folium DivIcon plugin
 from folium.features import DivIcon
 
+import warnings
+warnings.filterwarnings('ignore')
+
 # Download and read the `spacex_launch_geo.csv`
 # from js import fetch
 # import io
